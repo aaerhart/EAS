@@ -1,0 +1,64 @@
+
+body {
+    background: rgb(67, 128, 179);
+}
+
+#grid {
+    border: 30px black solid;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 245);
+    position: relative;
+    width: 500px;
+    height: 500px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    border-spacing: 0;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.grid-container {
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-spacing: 0;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+.grid-container > div {
+    display: inline-block;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+#pxSet{
+    background-color: blue;
+}
+
+#clear{
+    background-color: red;
+}
+
+#color {
+    background-color: green;
+}
+
+#rnd {
+    background-color: orange;
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    left: 480px;
+    padding-top: 50px;
+}
+
+
+
+
+
